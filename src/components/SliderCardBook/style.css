@@ -1,0 +1,29 @@
+.rotate-180 {
+    transform: rotate(180deg);
+}  
+
+.arrowhover:hover {
+    opacity: 1 !important;
+}
+
+.slick-slider .slick-track.center-mode-false {
+    display: flex !important;
+    justify-content: center !important;
+    transform: translate3d(0, 0, 0)!important;
+  }
+
+.container-card .slick-list {
+    padding: 20px;
+}
+
+.container-card .slick-prev:before,  .container-card .slick-next:before{
+    display: none;
+}
+
+.container-card .slick-prev {
+    left:20px;
+}
+
+.container-card .slick-next {
+    right:20px;
+}
